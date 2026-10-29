@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/eideroliveira/wordpress"
+	"github.com/Pense-Laranja/wordpress"
 )
 
 func factoryUser() *wordpress.User {

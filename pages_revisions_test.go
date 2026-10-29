@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/eideroliveira/wordpress"
+	"github.com/Pense-Laranja/wordpress"
 )
 
 func getLatestRevisionForPage(t *testing.T, page *wordpress.Page) *wordpress.Revision {
