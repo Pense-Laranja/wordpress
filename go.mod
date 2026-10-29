@@ -1,4 +1,4 @@
-module github.com/eideroliveira/wordpress
+module github.com/Pense-Laranja/wordpress
 
 go 1.23.0
 

@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/eideroliveira/wordpress"
+	"github.com/Pense-Laranja/wordpress"
 )
 
 var USER string = os.Getenv("WP_USER")

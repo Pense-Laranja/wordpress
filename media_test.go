@@ -6,13 +6,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/eideroliveira/wordpress"
+	"github.com/Pense-Laranja/wordpress"
 )
 
 func factoryMediaFileUpload(t *testing.T) *wordpress.MediaUploadOptions {
 
-	// assuming current-working directory `{GO_WORKSPACE_PATH}/src/github.com/eideroliveira/wordpress`
-	// assuming current-working directory `{GO_WORKSPACE_PATH}/src/github.com/eideroliveira/wordpress`
+	// assuming current-working directory `{GO_WORKSPACE_PATH}/src/github.com/Pense-Laranja/wordpress`
+	// assuming current-working directory `{GO_WORKSPACE_PATH}/src/github.com/Pense-Laranja/wordpress`
 
 	// prepare file to upload
 	file, err := os.Open("./fixtures/test.png")

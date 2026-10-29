@@ -5,7 +5,7 @@ Golang client library for WP-API (Wordpress REST API)
 ## Installation
 
 ```bash
-go get github.com/eideroliveira/wordpress
+go get github.com/Pense-Laranja/wordpress
 
 ```
 
@@ -16,7 +16,7 @@ go get github.com/eideroliveira/wordpress
 package main
 
 import (
-	"github.com/eideroliveira/wordpress"
+	"github.com/Pense-Laranja/wordpress"
 	"net/http"
 )
 
@@ -80,7 +80,7 @@ export WP_API_URL=http://192.168.99.100:32777/wp-json/wp/v2
 export WP_USER=<user>
 export WP_PASSWD=<password>
 
-cd <path_to_package>/github.com/eideroliveira/wordpress
+cd <path_to_package>/github.com/Pense-Laranja/wordpress
 go test
 
 ```
